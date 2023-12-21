@@ -1,0 +1,35 @@
+.container {
+  border: 5px solid red;
+  width: 1000px;
+  height: 800px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.child1 {
+  width: 150px;
+  height: 150px;
+  background-color: blue;
+  text-align: center;
+  color: white;
+  align-self: flex-start;
+}
+
+.child2 {
+  width: 150px;
+  height: 150px;
+  background-color: green;
+  text-align: center;
+  color: white;
+}
+
+.child3 {
+  width: 150px;
+  height: 150px;
+  background-color: purple;
+  text-align: center;
+  color: white;
+  flex-grow: 2;
+}

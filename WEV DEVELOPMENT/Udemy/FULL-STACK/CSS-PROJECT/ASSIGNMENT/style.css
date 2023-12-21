@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+.nav {
+  background-color: rgb(105, 139, 150);
+  width: 100%;
+  height: 8%;
+  position: fixed;
+  top: 0;
+}
+
+.nav h1,
+a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 3vh;
+  padding-top: 2vh;
+  text-align: center;
+}
+
+.nav a {
+  float: right;
+  padding-left: 3vh;
+}
+
+.nav a:hover {
+  background-color: rgb(121, 81, 81);
+}
+
+.content {
+  padding-top: 70px;
+}
